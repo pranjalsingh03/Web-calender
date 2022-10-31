@@ -35,9 +35,11 @@
   }
   td{
     border: 0px;
+    font-weight: bold;
   }
   th{
     border: 0px;
+    font-size: 20px;
   }
   td:hover{
     background-color: skyblue;
@@ -47,6 +49,7 @@
   }
   h2{
     color: blue;
+    font-size: 30px;
   }
   hr{
     border-color: black;
@@ -78,4 +81,7 @@ button{
 }
 body{
   background-image: url("landscape3.jpg");
+}
+p{
+  font-weight: bold;
 }
