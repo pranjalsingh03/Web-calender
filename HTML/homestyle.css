@@ -70,3 +70,12 @@ footer a {
     float: left;
     color: white;
 }
+h4{
+  text-align-last: right;
+}
+button{
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+}
