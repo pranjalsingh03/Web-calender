@@ -8,6 +8,7 @@
     border: 2px solid black;
     width: 35%;
     background-color: aqua;
+    border-radius: 20px;
    
   }
   .right{
@@ -47,8 +48,7 @@
     color: blue;
   }
   body{
-    background-color: skyblue;
-    border-radius: 10px;
+    background-image: url("landscape.jpg");
     
   }
   hr{
@@ -78,4 +78,7 @@ button{
   padding-top: 5px;
   padding-right: 10px;
   padding-bottom: 5px;
+}
+body{
+  background-image: url("landscape.jpeg") ;
 }
