@@ -4,9 +4,199 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>web calender </title>
+    <style>
+      .left{
+        position: relative;
+        height:550px ;
+        float: left;
+        margin: 5px;
+        overflow-y: scroll;
+        padding: 10px;
+        border: 2px solid black;
+        width: 35%;
+        background-color: aqua;
+       
+      }
+      .right{
+        position: relative;
+        height: 550px;
+        overflow-y: hidden;
+        float: right;
+        padding: 10px;
+        margin: 5px;
+        border: 2px solid rgb(130, 218, 133);
+        width: 60%;
+        background-color: rgb(139, 225, 108);
+        border-radius: 40px;
+      }
+      .calendar{
+        height: 80%;
+        width: 80%;
+        position: absolute;
+        margin-top: 10px;
+        margin-left: 100px;
+        text-align: center;
+        border: 0px;
+      }
+      td{
+        border: 0px;
+      }
+      th{
+        border: 0px;
+      }
+      td:hover{
+        background-color: skyblue;
+        color: red ;
+        border: 0px solid black;
+        border-radius: 100%;
+      }
+      h2{
+        color: blue;
+      }
+      body{
+        background-color: skyblue;
+        border-radius: 10px;
+        
+      }
+      hr{
+        border-color: black;
+      }
+      h1{
+        font-size: 50px;
+      }
+      footer {
+        background-color: rgb(31, 30, 30);
+        overflow: hidden;
+        align-content: center;
+    }
+    
+    footer a {
+        text-decoration: none;
+        padding: 20px;
+        
+        float: left;
+        color: white;
+    }
+    </style>
 </head>
 <body>
+    <h1 align = "center">CALENDER</h1>
+    <hr>
+    <h2> <button onclick="s()">Home</button>
+    <button onclick="s()"><a href="#" target="_blank">About us</button></a> 
+    <BUtton><a href="login.html">Login</a></BUtton>
+    <button><a href="#" target="_blank">Holidays list</a></button>
+    </h2>
+    <hr>
+    <div class="container">
+    <div class="left" name="2">
+      <h2> <center>Quotes</center> </h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo rerum corporis ipsam vel nisi impedit dolorum minus voluptas similique. Amet, ea temporibus! Voluptates, ab doloribus molestias optio aperiam reicien lhatu uptates veniam nemo nihil. Mollitia, fugit error inventore quaerat accusamus ipsa, beatae, vero eos rerum blanditiis aperiam a fugiat id harum porro similique impedit. Itaque, doloribus ipsum.</p>
+        <h2>
+          <center>Thoughts</center>
+          </h2>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi dolore eum eligendi animi, corrupti, tempore ipsum et consequatur asperiores necessitatibus deleniti sit excepturi, unde omnis quidem fugiat quo autem voluptate rerum? Alias earum repellendus culpa harum facilis magnam quis officia rerum hic praesentium inventore, eveniet soluta cumque. Totam, odio mollitia.</p>
+          <h2>
+          <center>Tips for Healthy Start</center>
+        </h2>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium iusto dicta aperiam rem, voluptas inventore autem con jtia, minima labore cum maxime vero! Aliquid beatae, quaerat quam expedita alias in dolores assumenda, commodi autem, sit magni?
+         Tenetur alias aut ipsam magnam. Eos aut repellendus aperiam quas! Error nostrum culpa cumque, dolorem ipsa itaque necessitatibus sapiente magnam quis sit explicabo, soluta laudantium harum quo qui incidunt. Temporibus!</p>  
+        <h2>
+        <center>About</center>
+      </h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem ducimus obcaecati dolore ea, quos, officiis nobis aperiam id impedit porro nisi vel delectus, ipsum perferendis! Voluptatibus sed quia natus nemo!</p>
+      </div>
+        <div class="right" name="1">
+          <div>
+              <header align = "center">
+              <h2>April</h2>
+              <a class="btn-prev fontawesome-angle-left" href="#"></a>
+              <a class="btn-next fontawesome-angle-right" href="#"></a>
+             </header>
+            <table align="center" border="" class="calendar" >
+              <thead>
+                <tr>
+                  <th>Monday</th>
+                  <th>Tuesday</th>
+                  <th>Wednesday</th>
+                  <th>Thursday</th>
+                  <th>Friday</th>
+                  <th>Saturday</th>
+                  <th>Sunday</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>29</td>
+                  <td>30</td>
+                  <td>31</td>
+                  <td>1</td>
+                  <td>2</td>
+                  <td>3</td>
+                  <td>4</td>
+                </tr>
+                <tr>
+                  <td>5</td>
+                  <td>6</td>
+                  <td>7</td>
+                  <td>8</td>
+                  <td>9</td>
+                  <td>10</td>
+                  <td>11</td>
+                </tr>
+                <tr>
+                  <td>12</td>
+                  <td>13</td>
+                  <td>14</td>
+                  <td>15</td>
+                  <td>16</td>
+                  <td>17</td>
+                  <td>18</td>
+                </tr>
+                <tr>
+                  <td>19</td>
+                  <td>20</td>
+                  <td>21</td>
+                  <td>22</td>
+                  <td>23</td>
+                  <td>24</td>
+                  <td>25</td>
+                </tr>
+                <tr>
+                  <td>26</td>
+                  <td>27</td>
+                  <td>28</td>
+                  <td>29</td>
+                  <td>30</td>
+                  <td>1</td>
+                  <td>2</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div> <!-- end calendar -->
+    </div> <!-- end container -->
+     <br>
+     <br>
+    
+      
+    
     
 </body>
+<script>
+  function s(){
+    var s=document.getElementsByClassName("left")[0].style.float
+    var m=document.getElementsByClassName('right')[0].style.float
+    if(s=="left"){
+      document.getElementsByClassName("left")[0].style.float='right'
+      document.getElementsByClassName("right")[0].style.float='left'
+    }else{
+      document.getElementsByClassName("right")[0].style.float='right'
+      document.getElementsByClassName("left")[0].style.float='left'
+      
+    }
+  };
+  
+</script>
 </html>
