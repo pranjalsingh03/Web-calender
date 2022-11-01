@@ -1,8 +1,4 @@
-*,
-*::before,
-*::after{
-    box-sizing: border-box;
-}
+
 html,
 body{
     height: 100%;
@@ -38,7 +34,7 @@ body{
     height: 500px;
 }
 .card::after{
-    content: "";
+    
     position: absolute;
     top: -80px;
     right: -16px;

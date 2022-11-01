@@ -81,7 +81,12 @@ button{
 }
 body{
   background-image: url("landscape3.jpg");
+  
 }
 p{
   font-weight: bold;
+}
+.dark-mode{
+  color: white;
+  background-color: black;
 }
