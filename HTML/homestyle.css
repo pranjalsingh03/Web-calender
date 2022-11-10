@@ -80,7 +80,7 @@ button{
   padding-bottom: 5px;
 }
 body{
-  background-image: url("landscape3.jpg");
+  background-image: linear-gradient(to top, rgba(248, 215, 215, 0), rgb(233, 163, 163));
   
 }
 p{
