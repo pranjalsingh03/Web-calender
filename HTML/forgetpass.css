@@ -6,8 +6,8 @@
 }
 
 body {
-    background-color: rgb(32, 29, 206);
-    font-family: 'Rubik', sans-serif;
+    background: radial-gradient(ellipse at bottom,#384352,#111827) fixed;
+
 }
 
 .login_form {
