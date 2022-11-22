@@ -79,3 +79,21 @@ body{
 p{
   font-weight: bold;
 }
+
+#March{
+  display: block;
+}
+.a_left{
+  display: flex;
+  float: left;
+  padding-left: 130px;
+}
+.a_right{
+  display: flex;
+  float: right;
+  padding-right: 130px;
+}
+.arrow_lr{
+  font-weight: bolder;
+  cursor: pointer;
+}
