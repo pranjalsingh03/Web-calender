@@ -7,40 +7,52 @@
 <body>
     <h1 align = "center" id="cal_head"></h1>
     <hr color="black">
-    <h2> <button onclick="s()"><a href="#" target="_blank">Home</a></button>
-    <button onclick="s()"><a href="#" target="_blank">About us</button></a> 
-    <button><a href="login.html" target="_blank">Login</a></BUtton>
-    <button><a href="#" target="_blank">Holidays list</a></button>
-    <button  onclick="myFunction()">Dark mode></button>  
+    <h2> 
+    <button onclick="window.location='/HTML/'">Home</button>
+    <button>About us</button>
+    <button onclick="window.location='/HTML/login.html'">Login</BUtton>
+    <button onclick="holidays()">Holidays list</button>
+    <button onclick="quotes()">Quotes</button>
+    <button  onclick="myFunction()">Dark mode</button>  
   </h2>
     <hr color="black">
     <div class="container">
     <div class="left" name="2">
-      <h2> <center>Quotes</center> </h2>
-          <p>"Everybody wants to be famous, but nobody wants to do the work. I live by that. You grind hard so you can play hard. At the end of the day, you put all the work in, and eventually it’ll pay off. It could be in a year, it could be in 30 years. Eventually, your hard work will pay off."<h4> — Kevin Hart</h4></p>
-        <h2>
-          <center>Thoughts</center>
-          </h2>
-          <p>Obviously, we are not saying that it is possible to be happy all of the time. But many people manage to live in an overall state of happiness. But how do we achieve this?<br><br>
-            When life feels overwhelmingly negative, it is easy to lose sight of how important happiness is. Most of the time people aren’t even aware, that they are the root of their own unhappiness.</p>
-          <h2>
-          <center>Tips for Healthy Start</center>
-        </h2>
-         <p>Fats consumed should be less than 30% of your total energy intake. This will help prevent unhealthy weight gain and NCDs. There are different types of fats, but unsaturated fats are preferable over saturated fats and trans-fats. WHO recommends reducing saturated fats to less than 10% of total energy intake; reducing trans-fats to less than 1% of total energy intake; and replacing both saturated fats and trans-fats to unsaturated fats.</p>  
-        <h2>
-        <center>About</center>
-      </h2>
-      <p>We have created this with the intend of helping people with there day to day activities on calender.</p>
+      <div id="Quotes_div">
+        <h2> <center>Quotes</center> </h2>
+            <p>"Everybody wants to be famous, but nobody wants to do the work. I live by that. You grind hard so you can play hard. At the end of the day, you put all the work in, and eventually it’ll pay off. It could be in a year, it could be in 30 years. Eventually, your hard work will pay off."<h4> — Kevin Hart</h4></p>
+          <h2><center>Thoughts</center></h2>
+            <p>Obviously, we are not saying that it is possible to be happy all of the time. But many people manage to live in an overall state of happiness. But how do we achieve this?<br><br>
+              When life feels overwhelmingly negative, it is easy to lose sight of how important happiness is. Most of the time people aren’t even aware, that they are the root of their own unhappiness.</p>
+            <h2><center>Tips for Healthy Start</center></h2>
+           <p>Fats consumed should be less than 30% of your total energy intake. This will help prevent unhealthy weight gain and NCDs. There are different types of fats, but unsaturated fats are preferable over saturated fats and trans-fats. WHO recommends reducing saturated fats to less than 10% of total energy intake; reducing trans-fats to less than 1% of total energy intake; and replacing both saturated fats and trans-fats to unsaturated fats.</p>  
+          <h2><center>About</center></h2>
+        <p>We have created this with the intend of helping people with there day to day activities on calender.</p>
+      </div>
+      <div id="Holiday_div">
+        <h2> <center>Holiday1</center> </h2>
+        <p> About holiday</p>
+        <h2> <center>Holiday1</center> </h2>
+        <p> About holiday</p>
+        <h2> <center>Holiday1</center> </h2>
+        <p> About holiday</p>
+        <h2> <center>Holiday1</center> </h2>
+        <p> About holiday</p>
+        <h2> <center>Holiday1</center> </h2>
+        <p> About holiday</p>
+        <h2> <center>Holiday1</center> </h2>
+        <p> About holiday</p>
+      </div>
       </div>
         <div class="right" name="1">
-          <div id="January">
+          <div id="-1">
             <header align = "center">
             <h2>
-              <span onclick="change(this)" id="back" class="a_left arrow_lr"><</span>
+              <span onclick="change_back(this)"  class="a_left arrow_lr"><</span>
               <span class="mont_name">
-                Janury
+                November 2021
               </span>
-              <span onclick="change(this)" id="next" class="a_right arrow_lr">></span>
+              <span onclick="change_next(this)" class="a_right arrow_lr">></span>
             </h2>
            </header>
           <table align="center" class="calendar" >
@@ -113,14 +125,174 @@
             </tbody>
           </table>
         </div>
-          <div id="Febraury">
+          <div id="0">
             <header align = "center">
             <h2>
-              <span onclick="change(this)" id="back" class="a_left arrow_lr"><</span>
+              <span onclick="change_back(this)"  class="a_left arrow_lr"><</span>
               <span class="mont_name">
-                Febraury
+                December 2021
               </span>
-              <span onclick="change(this)" id="next" class="a_right arrow_lr">></span>
+              <span onclick="change_next(this)" class="a_right arrow_lr">></span>
+            </h2>
+           </header>
+          <table align="center" class="calendar" >
+            <thead>
+              <tr>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+                <th>Saturday</th>
+                <th>Sunday</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>1</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+                <td>7</td>
+                <td>8</td>
+              </tr>
+              <tr>
+                <td>9</td>
+                <td>10</td>
+                <td>11</td>
+                <td>12</td>
+                <td>13</td>
+                <td>14</td>
+                <td>15</td>
+              </tr>
+              <tr>
+                <td>16</td>
+                <td>17</td>
+                <td>18</td>
+                <td>19</td>
+                <td>20</td>
+                <td>21</td>
+                <td>22</td>
+              </tr>
+              <tr>
+                <td>23</td>
+                <td>24</td>
+                <td>25</td>
+                <td>26</td>
+                <td>27</td>
+                <td>28</td>
+                <td>29</td>
+              </tr>
+              <tr>
+                <td>30</td>
+                <td>31</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+          <div id="1">
+            <header align = "center">
+            <h2>
+              <span onclick="change_back(this)"  class="a_left arrow_lr"><</span>
+              <span class="mont_name">
+                Janury 2022
+              </span>
+              <span onclick="change_next(this)" class="a_right arrow_lr">></span>
+            </h2>
+           </header>
+          <table align="center" class="calendar" >
+            <thead>
+              <tr>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+                <th>Saturday</th>
+                <th>Sunday</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>1</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+                <td>7</td>
+                <td>8</td>
+              </tr>
+              <tr>
+                <td>9</td>
+                <td>10</td>
+                <td>11</td>
+                <td>12</td>
+                <td>13</td>
+                <td>14</td>
+                <td>15</td>
+              </tr>
+              <tr>
+                <td>16</td>
+                <td>17</td>
+                <td>18</td>
+                <td>19</td>
+                <td>20</td>
+                <td>21</td>
+                <td>22</td>
+              </tr>
+              <tr>
+                <td>23</td>
+                <td>24</td>
+                <td>25</td>
+                <td>26</td>
+                <td>27</td>
+                <td>28</td>
+                <td>29</td>
+              </tr>
+              <tr>
+                <td>30</td>
+                <td>31</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+          <div id="2">
+            <header align = "center">
+            <h2>
+              <span onclick="change_back(this)"  class="a_left arrow_lr"><</span>
+              <span class="mont_name">
+                Febraury 2022
+              </span>
+              <span onclick="change_next(this)" class="a_right arrow_lr">></span>
             </h2>
            </header>
           <table align="center" class="calendar" >
@@ -187,11 +359,11 @@
           <div id="3">
             <header align = "center">
             <h2>
-              <span onclick="change(this)" id="back" class="a_left arrow_lr"><</span>
+              <span onclick="change_back(this)"  class="a_left arrow_lr"><</span>
               <span class="mont_name">
-                March
+                March 2022
               </span>
-              <span onclick="change(this)" id="next" class="a_right arrow_lr">></span>
+              <span onclick="change_next(this)" class="a_right arrow_lr">></span>
             </h2>
            </header>
           <table align="center" class="calendar" >
@@ -255,14 +427,14 @@
             </tbody>
           </table>
         </div>
-          <div id="4" style="display: block;">
+          <div id="4">
             <header align = "center">
             <h2>
-              <span onclick="change(this)" id="back" class="a_left arrow_lr"><</span>
+              <span onclick="change_back(this)"  class="a_left arrow_lr"><</span>
               <span class="mont_name">
-                April
+                April 2022
               </span>
-              <span onclick="change(this)" id="next" class="a_right arrow_lr">></span>
+              <span onclick="change_next(this)" class="a_right arrow_lr">></span>
             </h2>
            </header>
           <table align="center" class="calendar" >
@@ -280,7 +452,7 @@
             <tbody>
               <tr>
                 <td>29</td>
-                <td>30</td>
+                <td>39</td>
                 <td>31</td>
                 <td>1</td>
                 <td>2</td>
@@ -329,11 +501,11 @@
           <div id="5">
             <header align = "center">
             <h2>
-              <span onclick="change(this)" id="back" class="a_left arrow_lr"><</span>
+              <span onclick="change_back(this)"  class="a_left arrow_lr"><</span>
               <span class="mont_name">
-                May
+                May 2022
               </span>
-              <span onclick="change(this)" id="next" class="a_right arrow_lr">></span>
+              <span onclick="change_next(this)" class="a_right arrow_lr">></span>
             </h2>
            </header>
           <table align="center" class="calendar" >
@@ -400,11 +572,11 @@
           <div id="6">
             <header align = "center">
             <h2>
-              <span onclick="change(this)" id="back" class="a_left arrow_lr"><</span>
+              <span onclick="change_back(this)"  class="a_left arrow_lr"><</span>
               <span class="mont_name">
-                June
+                June 2022
               </span>
-              <span onclick="change(this)" id="next" class="a_right arrow_lr">></span>
+              <span onclick="change_next(this)" class="a_right arrow_lr">></span>
             </h2>
            </header>
           <table align="center" class="calendar" >
@@ -471,11 +643,11 @@
           <div id="7">
             <header align = "center">
             <h2>
-              <span onclick="change(this)" id="back" class="a_left arrow_lr"><</span>
+              <span onclick="change_back(this)"  class="a_left arrow_lr"><</span>
               <span class="mont_name">
-                July
+                July 2022
               </span>
-              <span onclick="change(this)" id="next" class="a_right arrow_lr">></span>
+              <span onclick="change_next(this)" class="a_right arrow_lr">></span>
             </h2>
            </header>
           <table align="center" class="calendar" >
@@ -542,11 +714,11 @@
           <div id="8">
             <header align = "center">
             <h2>
-              <span onclick="change(this)" id="back" class="a_left arrow_lr"><</span>
+              <span onclick="change_back(this)"  class="a_left arrow_lr"><</span>
               <span class="mont_name">
-                August
+                August 2022
               </span>
-              <span onclick="change(this)" id="next" class="a_right arrow_lr">></span>
+              <span onclick="change_next(this)" class="a_right arrow_lr">></span>
             </h2>
            </header>
           <table align="center" class="calendar" >
@@ -613,11 +785,11 @@
           <div id="9">
             <header align = "center">
             <h2>
-              <span onclick="change(this)" id="back" class="a_left arrow_lr"><</span>
+              <span onclick="change_back(this)"  class="a_left arrow_lr"><</span>
               <span class="mont_name">
-                September
+                September 2022
               </span>
-              <span onclick="change(this)" id="next" class="a_right arrow_lr">></span>
+              <span onclick="change_next(this)" class="a_right arrow_lr">></span>
             </h2>
            </header>
           <table align="center" class="calendar" >
@@ -684,11 +856,11 @@
           <div id="10">
             <header align = "center">
             <h2>
-              <span onclick="change(this)" id="back" class="a_left arrow_lr"><</span>
+              <span onclick="change_back(this)"  class="a_left arrow_lr"><</span>
               <span class="mont_name">
-                October
+                October 2022
               </span>
-              <span onclick="change(this)" id="next" class="a_right arrow_lr">></span>
+              <span onclick="change_next(this)" class="a_right arrow_lr">></span>
             </h2>
            </header>
           <table align="center" class="calendar" >
@@ -752,14 +924,14 @@
             </tbody>
           </table>
         </div>
-          <div id="11">
+          <div id="11" style="display: block;">
             <header align = "center">
             <h2>
-              <span onclick="change(this)" id="back" class="a_left arrow_lr"><</span>
+              <span onclick="change_back(this)"  class="a_left arrow_lr"><</span>
               <span class="mont_name">
-                November
+                November 2022
               </span>
-              <span onclick="change(this)" id="next" class="a_right arrow_lr">></span>
+              <span onclick="change_next(this)" class="a_right arrow_lr">></span>
             </h2>
            </header>
           <table align="center" class="calendar" >
@@ -776,49 +948,49 @@
             </thead>
             <tbody>
               <tr>
+                <td>31</td>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+              </tr>
+              <tr>
+                <td>7</td>
+                <td>8</td>
+                <td>9</td>
+                <td>10</td>
+                <td>11</td>
+                <td>12</td>
+                <td>13</td>
+              </tr>
+              <tr>
+                <td>14</td>
+                <td>15</td>
+                <td>16</td>
+                <td>17</td>
+                <td>18</td>
+                <td>19</td>
+                <td>20</td>
+              </tr>
+              <tr>
+                <td>21</td>
+                <td>22</td>
+                <td>23</td>
+                <td>24</td>
+                <td>25</td>
+                <td>26</td>
+                <td>27</td>
+              </tr>
+              <tr>
+                <td>28</td>
                 <td>29</td>
                 <td>30</td>
                 <td>31</td>
                 <td>1</td>
                 <td>2</td>
                 <td>3</td>
-                <td>4</td>
-              </tr>
-              <tr>
-                <td>5</td>
-                <td>6</td>
-                <td>7</td>
-                <td>8</td>
-                <td>9</td>
-                <td>10</td>
-                <td>11</td>
-              </tr>
-              <tr>
-                <td>12</td>
-                <td>13</td>
-                <td>14</td>
-                <td>15</td>
-                <td>16</td>
-                <td>17</td>
-                <td>18</td>
-              </tr>
-              <tr>
-                <td>19</td>
-                <td>20</td>
-                <td>21</td>
-                <td>22</td>
-                <td>23</td>
-                <td>24</td>
-                <td>25</td>
-              </tr>
-              <tr>
-                <td>26</td>
-                <td>27</td>
-                <td>28</td>
-                <td>29</td>
-                <td>30</td>
-                <td>1</td>
-                <td>2</td>
               </tr>
             </tbody>
           </table>
@@ -826,11 +998,11 @@
           <div id="12">
             <header align = "center">
             <h2>
-              <span onclick="change(this)" id="back" class="a_left arrow_lr"><</span>
+              <span onclick="change_back(this)"  class="a_left arrow_lr"><</span>
               <span class="mont_name">
-                December
+                December 2022
               </span>
-              <span onclick="change(this)" id="next" class="a_right arrow_lr">></span>
+              <span onclick="change_next(this)" class="a_right arrow_lr">></span>
             </h2>
            </header>
           <table align="center" class="calendar" >
@@ -847,49 +1019,49 @@
             </thead>
             <tbody>
               <tr>
-                <td>29</td>
-                <td>30</td>
-                <td>31</td>
-                <td>1</td>
-                <td>2</td>
-                <td>3</td>
-                <td>4</td>
-              </tr>
-              <tr>
-                <td>5</td>
-                <td>6</td>
-                <td>7</td>
-                <td>8</td>
-                <td>9</td>
-                <td>10</td>
-                <td>11</td>
-              </tr>
-              <tr>
-                <td>12</td>
-                <td>13</td>
-                <td>14</td>
-                <td>15</td>
-                <td>16</td>
-                <td>17</td>
-                <td>18</td>
-              </tr>
-              <tr>
-                <td>19</td>
-                <td>20</td>
-                <td>21</td>
-                <td>22</td>
-                <td>23</td>
-                <td>24</td>
-                <td>25</td>
-              </tr>
-              <tr>
-                <td>26</td>
                 <td>27</td>
                 <td>28</td>
                 <td>29</td>
                 <td>30</td>
                 <td>1</td>
                 <td>2</td>
+                <td>3</td>
+              </tr>
+              <tr>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+                <td>7</td>
+                <td>8</td>
+                <td>9</td>
+                <td>10</td>
+              </tr>
+              <tr>
+                <td>11</td>
+                <td>12</td>
+                <td>13</td>
+                <td>14</td>
+                <td>15</td>
+                <td>16</td>
+                <td>17</td>
+              </tr>
+              <tr>
+                <td>18</td>
+                <td>19</td>
+                <td>20</td>
+                <td>21</td>
+                <td>22</td>
+                <td>23</td>
+                <td>24</td>
+              </tr>
+              <tr>
+                <td>25</td>
+                <td>26</td>
+                <td>27</td>
+                <td>28</td>
+                <td>29</td>
+                <td>30</td>
+                <td>1</td>
               </tr>
             </tbody>
           </table>
