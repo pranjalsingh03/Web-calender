@@ -2,7 +2,7 @@ let post=11
 function change_back(x){
     document.getElementById(post).style.display='none'
     post=post-1
-    if(post == -2){
+    if(post == -8){
         post =12
     }
     document.getElementById(post).style.display='block'
