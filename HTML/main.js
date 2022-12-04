@@ -27,9 +27,11 @@ function quotes(){
 function darklight(){
     s=document.getElementById('dar-ligt').innerText
     if (s=='Light Mode'){
-        document.body.style.backgroundColor='black'
+        document.firstElementChild.style.filter='invert(0)'
         document.getElementById('dar-ligt').innerText='Dark Mode'
     }else{
+        document.body.style.backgroundColor='pink'
+        document.firstElementChild.style.filter='invert(1)'
         document.getElementById('dar-ligt').innerText='Light Mode'
     }
 }
