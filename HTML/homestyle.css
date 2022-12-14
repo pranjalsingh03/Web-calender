@@ -1,3 +1,7 @@
+body{
+  margin: 0px;
+  margin-top: -2%;
+}
 .left{
   position: relative;
   height:550px ;
@@ -17,6 +21,35 @@
 .left::-webkit-scrollbar{
   border-radius: 2px 15px 15px 2px;
 }
+#main-cont{
+  display: flex;
+  flex-direction: row;
+}
+#calender{
+  width: 90vw;
+  margin-left: -30vw;
+}
+@media only screen and (max-width: 850px) {
+  body{
+    margin-top:-5% ;
+  }
+  #main-cont{
+    display: flex;
+    flex-direction: column;
+  }
+  #leftbox{
+    width: 90vw;
+  }
+  #calender{
+    margin-left: 8vw;
+    width: 90vw;
+    
+  }
+  #calender>div{
+    width: 95vw;
+    margin-left: -30vw;
+  }
+}
 a{
   text-decoration: none;
   color: black;
@@ -24,10 +57,8 @@ a{
 html{
   height: 100%;
 }
-body>h2{
-  padding-left: 32%;
-}
-body>h2>button{
+
+body>div>button{
   border-radius: 5px;
   margin-left: 20px;
   box-shadow: rgba(202, 108, 108, 0.527) 12px 5px 10px;
@@ -81,9 +112,15 @@ footer {
 footer a {
   text-decoration: none;
   padding: 20px;
-  
   float: left;
   color: white;
+}
+#head-btn{
+  display: flex;
+  justify-content: center;
+}
+#head-btn>button{
+  margin-left: 10px;
 }
 h4{
 text-align-last: right;

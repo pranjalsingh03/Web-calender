@@ -2,23 +2,24 @@
 <html>
 <head>
   <title>web calender </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <link rel="stylesheet" href="homestyle.css">
 </head>
 <body>
     <h1 align = "center" id="cal_head"></h1>
     <hr color="black">
-    <h2> 
-    <button onclick="window.location='/HTML/'">Home</button>
-    <button><a href="aboutus.html" target="_blank"> About us</a></button>
-    <button onclick="window.location='/HTML/login.html'">Login</BUtton>
-    <button onclick="holidays()">Holidays in 2022</button>
-    <button><a href="/HTML/holidaylist.html" target="_blank">Holiday list</a></button>
-    <button onclick="quotes()">Quotes</button>
-    <button id="dar-ligt"  onclick="darklight()">Dark Mode</button>  
-  </h2>
+    <div id="head-btn">
+      <button onclick="window.location='/HTML/'">Home</button>
+      <button><a href="aboutus.html" target="_blank"> About us</a></button>
+      <button onclick="window.location='/HTML/login.html'">Login</BUtton>
+      <button onclick="holidays()">Holidays in 2022</button>
+      <button><a href="/HTML/holidaylist.html" target="_blank">Holiday list</a></button>
+      <button onclick="quotes()">Quotes</button>
+      <button id="dar-ligt"  onclick="darklight()">Dark Mode</button>  
+    </div>
     <hr color="black">
-    <div class="container">
-    <div class="left" name="2">
+    <div class="container" id="main-cont">
+    <div id="leftbox" class="left" name="2">
       <div id="Quotes_div">
         <h2> <center>Quotes</center> </h2>
             <p>"Everybody wants to be famous, but nobody wants to do the work. I live by that. You grind hard so you can play hard. At the end of the day, you put all the work in, and eventually it’ll pay off. It could be in a year, it could be in 30 years. Eventually, your hard work will pay off."<h4> — Kevin Hart</h4></p>
@@ -95,7 +96,7 @@
         <p>29th - Guru Govind Singh Jayanti</p>
       </div>
       </div>
-      <div>
+      <div id="calender">
           <div class="right" name="1">
               <div id="-11">
                 <header align = "center">
