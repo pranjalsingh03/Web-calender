@@ -43,7 +43,7 @@ body{
   #calender{
     margin-left: 8vw;
     width: 90vw;
-    
+    overflow-x: scroll;
   }
   #calender>div{
     width: 95vw;
