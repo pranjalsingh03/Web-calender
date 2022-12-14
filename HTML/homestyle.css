@@ -49,6 +49,10 @@ body{
     width: 95vw;
     margin-left: -30vw;
   }
+#head-btn{
+display: flex;
+flex-direction: column;
+}
 }
 a{
   text-decoration: none;
