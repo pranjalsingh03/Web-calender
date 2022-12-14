@@ -49,9 +49,8 @@ body{
     overflow-x: scroll;
     margin-left: -30vw;
   }
-#head-btn>button{
-display: flex;
-flex-direction: column;
+#head-btn{
+width:90%;
 }
 }
 a{
