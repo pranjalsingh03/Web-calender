@@ -50,9 +50,8 @@ body{
     margin-left: -30vw;
   }
 #head-btn{
-width:200px;
-Height:10%;
-overflow: hidden;
+display:flex;
+flex-direction: column;
 }
 }
 a{
