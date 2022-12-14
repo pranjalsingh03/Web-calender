@@ -50,7 +50,9 @@ body{
     margin-left: -30vw;
   }
 #head-btn{
-width:90%;
+width:200px;
+Height:10%;
+overflow: hidden;
 }
 }
 a{
