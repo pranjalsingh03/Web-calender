@@ -43,13 +43,13 @@ body{
   #calender{
     margin-left: 8vw;
     width: 90vw;
-    overflow-x: scroll;
   }
   #calender>div{
     width: 95vw;
+    overflow-x: scroll;
     margin-left: -30vw;
   }
-#head-btn{
+#head-btn>button{
 display: flex;
 flex-direction: column;
 }
