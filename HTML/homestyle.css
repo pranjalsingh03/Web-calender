@@ -98,6 +98,10 @@ body{
   .calendar>thead>tr{
     background-color: red;
   }
+#head-btn{
+display:flex;
+flex-direction: column;
+}
 }
 a{
   text-decoration: none;
