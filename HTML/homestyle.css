@@ -9,11 +9,11 @@ body{
   position: relative;
   height:550px ;
   float: left;
-  margin: 5px;
+  margin: 20px;
   overflow-y: scroll;
   padding: 10px;
   border: 2px solid black;
-  width: 35%;    
+  width: 20%;    
   border-radius: 20px;   
   box-shadow: rgba(202, 108, 108, 0.527) 12px -5px 10px;
 }
@@ -122,8 +122,8 @@ body>div>button{
   overflow-y: hidden;
   float: right;
   padding: 10px;
-  margin: 5px;
-  width: 60%;
+  margin: 20px;
+  width: 80%;
 }
 .calendar{
   height: 80%;
