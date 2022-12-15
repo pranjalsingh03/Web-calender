@@ -30,7 +30,7 @@ body{
 }
 #calender{
   width: 90vw;
-  margin-left: -7vw;
+
 }
 #head-btn>span{
   margin: 1vw;
@@ -51,6 +51,64 @@ body{
   #leftbox{
     width: 90vw;
     margin-left: 4%;
+  }
+  #cal-r{
+    width: 90%;
+    /* left: 4%; */
+    height: 40vh;
+    overflow: hidden;
+  }
+  #cal-r>div{
+    width: 100vw;
+    left: 10%;
+  }
+  .mont_name{
+    font-size: 0.6em;
+    margin: 0px;
+    width: 10px;
+    position: relative;
+    left: 25vw;
+  }
+  .a_left{
+    font-size: 1em;
+    position: relative;
+    margin-left: -30vw;
+    left: 30vw;
+  }
+  .a_right{
+    font-size: 1em;
+    position: relative;
+    right: -10vw;
+  }
+  #calender>div>div{
+    border: none;
+  }
+  #head-btn{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 5%;
+  }
+  #head-btn>span{
+    display: flex;
+    justify-content: center;
+  }
+
+  .right>div{
+    display: none;
+    width: 90vw;
+    height: 10px;
+    }
+  .calendar>thead>tr{
+    background-color: red;
+    font-size: 20px;
+    margin: 0vw 1vw;
+  }
+  table{
+    overflow-x: scroll;
+    width: 90vw;
+    display: block;
+    left: 25vw;
+=======
   }
   #cal-r{
     width: 90%;
@@ -98,10 +156,6 @@ body{
   .calendar>thead>tr{
     background-color: red;
   }
-#head-btn{
-display:flex;
-flex-direction: column;
-}
 }
 a{
   text-decoration: none;
@@ -130,7 +184,7 @@ body>div>button{
   width: 80%;
   position: absolute;
   margin-top: 10px;
-  margin-left: 100px;
+  left: 10%;
   text-align: center;
   border: 0px;    
 }
